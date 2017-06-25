@@ -1,0 +1,79 @@
+@media (max-width: 767px) {
+  #tx {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+  }
+
+  #me > img {
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+  }
+
+  #details {
+    text-align: center;
+  }
+  #details #name {
+    font-size: 30px;
+    line-height: 1px;
+  }
+  #details #contents #title {
+    font-size: 18px;
+  }
+  #details #contents #skills > p {
+    font-size: 12px;
+    line-height: 1px;
+  }
+}
+@media (min-width: 768px) {
+  #tx {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+  }
+
+  #me {
+    padding-top: 2vw;
+    padding-right: 2vw;
+  }
+  #me > img {
+    float: right;
+    width: 200px;
+    height: 200px;
+  }
+
+  #details {
+    border-left: 1px solid #b3b3b3;
+    padding-left: 2vw;
+  }
+  #details #name {
+    font-size: 50px;
+    line-height: 0px;
+  }
+  #details #contents {
+    padding-left: 3vw;
+  }
+  #details #contents #title {
+    font-size: 25px;
+    line-height: 70px;
+  }
+  #details #contents #skills > p {
+    font-size: 18px;
+    line-height: 1px;
+  }
+}
+#page {
+  background: radial-gradient(ellipse at center, #ffffff 25%, #ebbae1 100%);
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#details #skills > a {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
