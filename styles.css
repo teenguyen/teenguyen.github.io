@@ -64,7 +64,7 @@
     line-height: 1px;
   }
 }
-#page {
+body {
   background: radial-gradient(ellipse at center, #ffffff 25%, #ebbae1 100%);
   overflow: hidden;
   position: relative;

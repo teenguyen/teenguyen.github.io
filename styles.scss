@@ -72,7 +72,7 @@ $color: #ebbae1;
   }
 }
 
-#page {
+body {
   background: radial-gradient(ellipse at center, lighten($color, 50%) 25%, $color 100%);
   overflow: hidden;
   position: relative;
