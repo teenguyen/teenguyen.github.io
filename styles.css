@@ -1,6 +1,7 @@
 body {
   background: radial-gradient(ellipse at bottom, #ffffff 25%, #ffc0cb 100%);
   display: block;
+  padding: 0 15vw;
 }
 
 #page {

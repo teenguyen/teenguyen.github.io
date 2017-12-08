@@ -12,6 +12,7 @@ $deeppink: #FF8095;
 body {
   background: radial-gradient(ellipse at bottom, lighten($pink, 50%) 25%, $pink 100%);
   display: block;
+  padding: 0 15vw;
 }
 
 #page {
