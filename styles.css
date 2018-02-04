@@ -55,42 +55,42 @@
 }
 @keyframes jv-rise {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 @-o-keyframes jv-rise {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 @-ms-keyframes jv-rise {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 @-moz-keyframes jv-rise {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 @-webkit-keyframes jv-rise {
   0% {
-    opacity: 0;
+    opacity: 1;
   }
   100% {
-    opacity: 1;
+    opacity: 0;
   }
 }
 @keyframes db-flash {
@@ -284,7 +284,7 @@ body {
 #content {
   margin-top: 15vh;
   padding: 7% 10%;
-  background-color: #FFFFFF80;
+  background: rgba(255, 255, 255, 0.5);
   font-size: 1.2em;
 }
 #content h1 {
@@ -360,11 +360,16 @@ body {
   -webkit-animation-delay: 1s;
 }
 #content #technology .tech-dis .jv-steam {
-  animation: jv-rise 5s infinite alternate;
-  -o-animation: jv-rise 5s infinite alternate;
-  -ms-animation: jv-rise 5s infinite alternate;
-  -moz-animation: jv-rise 5s infinite alternate;
-  -webkit-animation: jv-rise 5s infinite alternate;
+  animation: jv-rise 4s infinite alternate;
+  -o-animation: jv-rise 4s infinite alternate;
+  -ms-animation: jv-rise 4s infinite alternate;
+  -moz-animation: jv-rise 4s infinite alternate;
+  -webkit-animation: jv-rise 4s infinite alternate;
+  animation-delay: 4s;
+  -o-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -webkit-animation-delay: 4s;
 }
 #content #technology .tech-dis .db-flash:nth-of-type(1) {
   animation: db-flash 3s infinite linear;
@@ -403,11 +408,11 @@ body {
   -ms-animation: gr-left 20s infinite linear;
   -moz-animation: gr-left 20s infinite linear;
   -webkit-animation: gr-left 20s infinite linear;
-  transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -webkit-transform-origin: 50% 50%;
+  transform-origin: 8.384px 13.791px;
+  -o-transform-origin: 8.384px 13.791px;
+  -ms-transform-origin: 8.384px 13.791px;
+  -moz-transform-origin: 8.384px 13.791px;
+  -webkit-transform-origin: 8.384px 13.791px;
 }
 #content #technology .tech-dis .gr-right {
   animation: gr-right 12.5s infinite linear;
@@ -415,11 +420,11 @@ body {
   -ms-animation: gr-right 12.5s infinite linear;
   -moz-animation: gr-right 12.5s infinite linear;
   -webkit-animation: gr-right 12.5s infinite linear;
-  transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -webkit-transform-origin: 50% 50%;
+  transform-origin: 18.8685px 7.079px;
+  -o-transform-origin: 18.8685px 7.079px;
+  -ms-transform-origin: 18.8685px 7.079px;
+  -moz-transform-origin: 18.8685px 7.079px;
+  -webkit-transform-origin: 18.8685px 7.079px;
 }
 #content #technology .tech-name {
   font-weight: 400;

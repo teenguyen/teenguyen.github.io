@@ -2,7 +2,7 @@ $pink: #FF57AB;
 $purple: #AB57FF;
 $pink-bg: #FFCCD9;
 $purple-bg: #D9CCFF;
-$white-bg: #FFFFFF80;
+$white-bg: rgba(255, 255, 255, 0.5);
 $font-col: #4F4F4F;
 $white: #FFFFFF;
 $black-text: #4F4F4F;
@@ -88,10 +88,10 @@ $pink-fade-2-3: #C057EA;
 
 @include keyframes(jv-rise) {
     0% {
-      opacity: 0;
+      opacity: 1;
     }
     100% {
-      opacity: 1;
+      opacity: 0;
     }
 }
 
@@ -172,7 +172,7 @@ body {
 #content {
     margin-top: 15vh;
     padding: 7% 10%;
-    background-color: $white-bg;
+    background: $white-bg;
     font-size: 1.2em;
 
     h1 {
@@ -237,7 +237,8 @@ body {
             }
             
             .jv-steam {
-                @include animation(jv-rise 5s infinite alternate);
+                @include animation(jv-rise 4s infinite alternate);
+                @include animation-delay(4s);
             }
 
             .db-flash:nth-of-type(1) {
@@ -251,14 +252,14 @@ body {
                 @include animation(db-flash 3s infinite linear);
                 @include animation-delay(1s);
             }
-
+            
             .gr-left {
                 @include animation(gr-left 20s infinite linear);
-                @include transform-origin(50%, 50%);
+                @include transform-origin(8.384px, 13.791px);
             }
             .gr-right {
                 @include animation(gr-right 12.5s infinite linear);
-                @include transform-origin(50%, 50%);
+                @include transform-origin(18.8685px, 7.079px);
             }
         }
 
@@ -318,7 +319,7 @@ body {
 
     #sample {
         > h1 {
-            color: $pink-fade-2-3
+            color: $pink-fade-2-3;
         }
 
         .sample-pen {
