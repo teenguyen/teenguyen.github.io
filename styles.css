@@ -285,11 +285,24 @@ body {
   margin-top: 10vh;
   padding: 7% 10%;
   background: rgba(255, 255, 255, 0.5);
-  font-size: 1.2em;
+}
+@media (max-width: 1080px) {
+  #content {
+    font-size: 1.4em;
+  }
+}
+@media (min-width: 1081px) {
+  #content {
+    font-size: 1.2em;
+  }
 }
 #content h1 {
   font-weight: 300;
   text-align: center;
+}
+#content .bold-text {
+  font-size: 0.85em;
+  font-weight: 700;
 }
 #content .date {
   font-size: 0.85em;
@@ -341,12 +354,15 @@ body {
     -webkit-flex-grow: 1;
   }
 }
-#content .bold-text {
-  font-size: 0.8em;
-  font-weight: 700;
+@media (max-width: 1080px) {
+  #content #intro {
+    font-size: 0.5em;
+  }
 }
-#content #intro {
-  font-size: 1.1em;
+@media (min-width: 1081px) {
+  #content #intro {
+    font-size: 1.1em;
+  }
 }
 #content #technology > h1 {
   color: #FF57AB;

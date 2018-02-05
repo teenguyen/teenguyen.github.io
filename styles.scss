@@ -180,11 +180,22 @@ body {
     margin-top: 10vh;
     padding: 7% 10%;
     background: $white-bg;
-    font-size: 1.2em;
+
+    @media (max-width: 1080px) {
+        font-size: 1.4em;
+    }
+    @media (min-width: 1081px) {
+        font-size: 1.2em;
+    }
 
     h1 {
         font-weight: 300;
         text-align: center;
+    }
+
+    .bold-text {
+        font-size: 0.85em;
+        font-weight: 700;
     }
         
     .date {
@@ -202,7 +213,7 @@ body {
         -moz-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        
+
         align-items: center;
         justify-content: center;
         
@@ -242,13 +253,13 @@ body {
         }
     }
 
-    .bold-text {
-        font-size: 0.8em;
-        font-weight: 700;
-    }
-
     #intro {
-        font-size: 1.1em;
+        @media (max-width: 1080px) {
+            font-size: 0.5em;
+        }
+        @media (min-width: 1081px) {
+            font-size: 1.1em;
+        }
     }
 
     #technology {
