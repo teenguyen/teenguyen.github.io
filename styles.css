@@ -282,7 +282,7 @@ body {
 }
 
 #content {
-  margin-top: 15vh;
+  margin-top: 10vh;
   padding: 7% 10%;
   background: rgba(255, 255, 255, 0.5);
   font-size: 1.2em;
@@ -290,6 +290,9 @@ body {
 #content h1 {
   font-weight: 300;
   text-align: center;
+}
+#content .date {
+  font-size: 0.85em;
 }
 #content .flex {
   display: -webkit-flex;
@@ -301,14 +304,14 @@ body {
   -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   margin: .5vw;
   width: 100%;
 }
 #content .flex .flex-50,
 #content .flex .flex-33 {
   margin: 2.5vh 0;
-  align-items: center;
-  justify-content: center;
 }
 @media (max-width: 1080px) {
   #content .flex {
@@ -477,9 +480,6 @@ body {
 }
 #content #experience > h1 {
   color: #D557D5;
-}
-#content #experience .date {
-  font-size: 0.85em;
 }
 #content #experience img {
   display: block;

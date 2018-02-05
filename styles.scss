@@ -177,7 +177,7 @@ body {
 }
 
 #content {
-    margin-top: 15vh;
+    margin-top: 10vh;
     padding: 7% 10%;
     background: $white-bg;
     font-size: 1.2em;
@@ -185,6 +185,10 @@ body {
     h1 {
         font-weight: 300;
         text-align: center;
+    }
+        
+    .date {
+        font-size: 0.85em;
     }
 
     .flex {
@@ -199,14 +203,15 @@ body {
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         
+        align-items: center;
+        justify-content: center;
+        
         margin: .5vw;
         width: 100%;
 
         .flex-50, 
         .flex-33 {
             margin: 2.5vh 0;
-            align-items: center;
-            justify-content: center;
         }
     }
     
@@ -331,10 +336,6 @@ body {
     #experience {
         > h1 {
             color: $pink-fade-2-2
-        }
-        
-        .date {
-            font-size: 0.85em;
         }
 
         img {
