@@ -217,10 +217,6 @@ body {
             .flex-50,
             .flex-33 {
                 width: 100%;
-                
-                img {
-                    max-width: 35%;
-                }
             }
         }
     }
@@ -237,10 +233,6 @@ body {
             .flex-33 {
                 width: calc(100%/3);
                 @include flex-grow(1);
-                
-                img {
-                    max-width: 50%;
-                }
             }
         }
     }
@@ -348,6 +340,15 @@ body {
         img {
             display: block;
             margin: auto;
+                
+            &.exp-now {
+                max-width: 50%;
+                max-width: 300px;
+            }
+            
+            &.exp-prev {
+                max-width: 35%;
+            }
         }
     }
 

@@ -318,10 +318,6 @@ body {
   #content .flex .flex-33 {
     width: 100%;
   }
-  #content .flex .flex-50 img,
-  #content .flex .flex-33 img {
-    max-width: 35%;
-  }
 }
 @media (min-width: 1081px) {
   #content .flex {
@@ -340,9 +336,6 @@ body {
     -ms-flex-grow: 1;
     -moz-flex-grow: 1;
     -webkit-flex-grow: 1;
-  }
-  #content .flex .flex-33 img {
-    max-width: 50%;
   }
 }
 #content .bold-text {
@@ -491,6 +484,13 @@ body {
 #content #experience img {
   display: block;
   margin: auto;
+}
+#content #experience img.exp-now {
+  max-width: 50%;
+  max-width: 300px;
+}
+#content #experience img.exp-prev {
+  max-width: 35%;
 }
 #content #sample > h1 {
   color: #C057EA;
