@@ -301,7 +301,6 @@ body {
   -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  align-items: flex-start;
   justify-content: center;
   margin: .5vw;
   width: 100%;
@@ -312,6 +311,7 @@ body {
 }
 @media (max-width: 1080px) {
   #content .flex {
+    align-items: center;
     flex-direction: column;
   }
   #content .flex .flex-50,
@@ -321,6 +321,7 @@ body {
 }
 @media (min-width: 1081px) {
   #content .flex {
+    align-items: flex-start;
     flex-direction: row;
   }
   #content .flex .flex-50 {
@@ -447,15 +448,25 @@ body {
   font-weight: 400;
   font-size: 1.2em;
   color: #FF57AB;
+  padding-bottom: 2vh;
 }
 #content #technology .tech-info {
   float: right;
   width: calc(100% * (2/3) - .5em);
 }
 #content #technology .tech-icon {
-  padding: 0 1.5vw;
   display: block;
   margin: 0 auto;
+}
+@media (max-width: 1080px) {
+  #content #technology .tech-icon {
+    padding: 0 3.5vw;
+  }
+}
+@media (min-width: 1081px) {
+  #content #technology .tech-icon {
+    padding: 0 1.5vw;
+  }
 }
 #content #technology .tech-left {
   float: right;
@@ -474,13 +485,15 @@ body {
 #content #experience img {
   display: block;
   margin: auto;
+  width: 50%;
 }
 #content #experience img.exp-now {
-  max-width: 50%;
   max-width: 300px;
 }
-#content #experience img.exp-prev {
-  max-width: 35%;
+@media (max-width: 1080px) {
+  #content #experience img.exp-prev {
+    max-width: 35%;
+  }
 }
 #content #sample > h1 {
   color: #C057EA;

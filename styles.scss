@@ -199,8 +199,6 @@ body {
         -moz-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-
-        align-items: flex-start;
         justify-content: center;
         
         margin: .5vw;
@@ -210,10 +208,9 @@ body {
         .flex-33 {
             margin: 2.5vh 0;
         }
-    }
     
-    @media (max-width: 1080px) {
-        .flex {
+        @media (max-width: 1080px) {
+            align-items: center;
             flex-direction: column;
 
             .flex-50,
@@ -221,10 +218,9 @@ body {
                 width: 100%;
             }
         }
-    }
-
-    @media (min-width: 1081px) {
-        .flex {
+    
+        @media (min-width: 1081px) {
+            align-items: flex-start;
             flex-direction: row;
 
             .flex-50 {
@@ -291,6 +287,7 @@ body {
             font-weight: 400;
             font-size: 1.2em;
             color: $pink;
+            padding-bottom: 2vh; 
         }
 
         .tech-info {
@@ -299,9 +296,16 @@ body {
         }
 
         .tech-icon {
-            padding: 0 1.5vw;
             display: block;
             margin: 0 auto;
+
+            @media (max-width: 1080px) {
+                padding: 0 3.5vw;
+            }
+
+            @media (min-width: 1081px) {
+                padding: 0 1.5vw;
+            }
         }
 
         .tech-left {
@@ -329,14 +333,16 @@ body {
         img {
             display: block;
             margin: auto;
+            width: 50%;
                 
             &.exp-now {
-                max-width: 50%;
                 max-width: 300px;
             }
-            
-            &.exp-prev {
-                max-width: 35%;
+
+            @media (max-width: 1080px) {
+                &.exp-prev {
+                    max-width: 35%;
+                }
             }
         }
     }
