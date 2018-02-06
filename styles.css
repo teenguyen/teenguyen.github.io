@@ -277,16 +277,7 @@ body {
   margin-top: 10vh;
   padding: 7% 10%;
   background: rgba(255, 255, 255, 0.5);
-}
-@media (max-width: 1080px) {
-  #content {
-    font-size: 1.4em;
-  }
-}
-@media (min-width: 1081px) {
-  #content {
-    font-size: 1.2em;
-  }
+  font-size: 1.2em;
 }
 #content h1 {
   font-weight: 300;
@@ -344,16 +335,6 @@ body {
     -ms-flex-grow: 1;
     -moz-flex-grow: 1;
     -webkit-flex-grow: 1;
-  }
-}
-@media (max-width: 1080px) {
-  #content #intro {
-    font-size: 0.5em;
-  }
-}
-@media (min-width: 1081px) {
-  #content #intro {
-    font-size: 1.1em;
   }
 }
 #content #technology > h1 {
