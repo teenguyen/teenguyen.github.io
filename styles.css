@@ -266,6 +266,7 @@ body {
 }
 #header #hello-subtext {
   font-size: 2.5em;
+  font-weight: 400;
 }
 #header .white-text {
   color: #FFFFFF;
@@ -300,7 +301,7 @@ body {
   -moz-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   margin: .5vw;
   width: 100%;
@@ -452,7 +453,7 @@ body {
   width: calc(100% * (2/3) - .5em);
 }
 #content #technology .tech-icon {
-  padding: 0 1vw;
+  padding: 0 1.5vw;
   display: block;
   margin: 0 auto;
 }
