@@ -7,6 +7,8 @@ $font-col: #4F4F4F;
 $white: #FFFFFF;
 $black-text: #4F4F4F;
 
+$mid: #D557D5;
+
 // gradient with two mids
 $pink-fade-1-1: #E357C7;
 $pink-fade-1-2: #C757E3;
@@ -65,52 +67,52 @@ $pink-fade-2-3: #C057EA;
 
 @mixin keyframes($name) {
     @keyframes #{$name} {
-      @content;
+        @content;
     }
     @-o-keyframes #{$name} {
-      @content;
+        @content;
     }
     @-ms-keyframes #{$name} {
-      @content;
+        @content;
     }
     @-moz-keyframes #{$name} {
-      @content;
+        @content;
     }
     @-webkit-keyframes #{$name} {
-      @content; 
+        @content; 
     }
 }
 
 @include keyframes(wb-type) {
     0% {
-    opacity: 1;
+        opacity: 1;
     }
     50% {
-    opacity: 0;
+        opacity: 0;
     }
     100% {
-    opacity: 0;
+        opacity: 0;
     }
 }
 
 @include keyframes(jv-rise) {
     0% {
-      opacity: 1;
+        opacity: 1;
     }
     100% {
-      opacity: 0;
+        opacity: 0;
     }
 }
 
 @include keyframes(db-flash) {
     0% {
-      opacity: 1;
+        opacity: 1;
     }
     5% {
-      opacity: 0;
+        opacity: 0;
     }
     6% {
-      opacity: 1;
+        opacity: 1;
     }
 }
 
@@ -137,14 +139,11 @@ body {
 }
 
 #header {
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZ3JhZGllbnQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMCUiIHkyPSIxMDAlIj48c3RvcCBvZmZzZXQ9IjAlIiBzdHlsZT0ic3RvcC1jb2xvcjojRkY1N0FCOyIgLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNBQjU3RkY7IiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IGZpbGw9InVybCgjZ3JhZGllbnQpIiBoZWlnaHQ9IjEwMCUiIHdpZHRoPSIxMDAlIiAvPjwvc3ZnPg==);
-    background-image: -webkit-gradient(linear, left top, 90deg, color-stop(0%, $pink), color-stop(100%, $purple));
-    background-image: -moz-linear-gradient(90deg,$pink 0%,$purple 100%);
-    background-image: -webkit-linear-gradient(90deg,$pink 0%,$purple 100%);
-    background-image: -o-linear-gradient(90deg,$pink 0%,$purple 100%);
-    background-image: -ms-linear-gradient(90deg,$pink 0%,$purple 100%);
+    @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+        background-image: none;
+        color: $pink;
+    }
     background-image: linear-gradient(90deg,$pink 0%,$purple 100%);
-
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: relative;
@@ -158,7 +157,6 @@ body {
 
     #hello-subtext {
         font-size: 2.5em;
-        font-weight: 400;
     }
 
     .white-text {
@@ -183,7 +181,7 @@ body {
         font-size: 0.85em;
         font-weight: 700;
     }
-        
+
     .date {
         font-size: 0.85em;
     }
@@ -199,8 +197,11 @@ body {
         -moz-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+
+        align-items: flex-start;
         justify-content: center;
-        
+        flex-direction: row;
+
         margin: .5vw;
         width: 100%;
 
@@ -208,21 +209,25 @@ body {
         .flex-33 {
             margin: 2.5vh 0;
         }
-    
-        @media (max-width: 1080px) {
-            align-items: center;
-            flex-direction: column;
+    }
 
-            .flex-50,
-            .flex-33 {
+    @media screen and (max-width: 1080px) {
+        .flex {
+            -ms-flex-wrap: wrap;
+            flex: 1 1 0;
+            .flex-50 {
                 width: 100%;
             }
+            
+            .flex-33 {
+                width: 100%;
+                flex-wrap: wrap;
+            }
         }
-    
-        @media (min-width: 1081px) {
-            align-items: flex-start;
-            flex-direction: row;
+    }
 
+    @media screen and (min-width: 1081px) {
+        .flex {
             .flex-50 {
                 width: 50%;
                 @include flex-grow(1);
@@ -238,6 +243,9 @@ body {
     #technology {
         > h1 {
             color: $pink
+        }
+        
+        .flex {
         }
 
         .tech-dis {
@@ -255,7 +263,7 @@ body {
                 @include animation(wb-type 5s infinite step-end);
                 @include animation-delay(1s);
             }
-            
+
             .jv-steam {
                 @include animation(jv-rise 4s infinite alternate);
                 @include animation-delay(4s);
@@ -272,7 +280,7 @@ body {
                 @include animation(db-flash 3s infinite linear);
                 @include animation-delay(1s);
             }
-            
+
             .gr-left {
                 @include animation(gr-left 20s infinite linear);
                 @include transform-origin(8.384px, 13.791px);
@@ -287,7 +295,6 @@ body {
             font-weight: 400;
             font-size: 1.2em;
             color: $pink;
-            padding-bottom: 2vh; 
         }
 
         .tech-info {
@@ -296,16 +303,9 @@ body {
         }
 
         .tech-icon {
+            padding: 0 1.5vw;
             display: block;
             margin: 0 auto;
-
-            @media (max-width: 1080px) {
-                padding: 0 3.5vw;
-            }
-
-            @media (min-width: 1081px) {
-                padding: 0 1.5vw;
-            }
         }
 
         .tech-left {
@@ -333,16 +333,14 @@ body {
         img {
             display: block;
             margin: auto;
-            width: 50%;
-                
+
             &.exp-now {
+                width: 50%;
                 max-width: 300px;
             }
 
-            @media (max-width: 1080px) {
-                &.exp-prev {
-                    max-width: 35%;
-                }
+            &.exp-prev {
+                max-width: 35%;
             }
         }
     }
