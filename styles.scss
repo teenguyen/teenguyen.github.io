@@ -244,13 +244,17 @@ body {
         > h1 {
             color: $pink
         }
-        
-        .flex {
-        }
 
         .tech-dis {
             display: inline-block;
-            width: calc(100% * (1/3) - .5em);
+
+            @media screen and (max-width: 1080px) {
+                width: calc(100% * (1/4) - .5em);
+            }
+
+            @media screen and (min-width: 1081px) {
+                width: calc(100% * (1/3) - .5em);
+            }
 
             .wb-type:nth-of-type(1) {
                 @include animation(wb-type 5s infinite step-end);
@@ -359,18 +363,30 @@ body {
             max-width: 75%;
             max-height: 75%;
             margin: auto;
-            @include transition(500ms);
-            -webkit-filter: grayscale(100%);
-            filter: grayscale(100%);
 
-            &:hover {
-                -webkit-filter: none;
-                filter: none;
+            .sample-web-image {
+                @include transition(500ms);
+                -webkit-filter: grayscale(100%);
+                filter: grayscale(100%);
+
+                &:hover {
+                    -webkit-filter: none;
+                    filter: none;
+                }
+
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
             }
 
-            img {
-                max-width: 100%;
-                max-height: 100%;
+            p > a {
+                text-decoration: none;
+
+                > svg {
+                    color: $pink-fade-2-3;
+                    stroke-width: 1;
+                }
             }
         }
     }
