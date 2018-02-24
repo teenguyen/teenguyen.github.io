@@ -255,18 +255,14 @@ body {
             text-align: right;
         }
 
-        @media screen and (max-width: 1080px) {
-            .tech-right {
-                text-align: left;
-            }
-        }
-
         .tech-dis {
             display: inline-block;
             padding-bottom: 10px;
+            width: 100%;
 
             @media screen and (max-width: 640px) {
-                width: 100px;
+                max-width: 120px;
+                width: 50%;
             }
 
             @media screen and (min-width: 641px) and (max-width: 1080px) {
@@ -331,7 +327,6 @@ body {
         }
 
         .tech-info {
-            float: right;
             width: calc(100% * (2/3) - .5em);
 
             @media screen and (max-width: 640px) {
