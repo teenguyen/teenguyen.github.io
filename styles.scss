@@ -367,11 +367,6 @@ body {
             color: $pink-fade-2-3;
         }
 
-        .sample-pen {
-            width: 75%;
-            margin: auto;
-        }
-
         .sample-web {
             max-width: 75%;
             max-height: 75%;
@@ -399,6 +394,7 @@ body {
                 > svg {
                     color: $pink-fade-2-3;
                     stroke-width: 1;
+                    vertical-align: bottom;
                 }
             }
         }
