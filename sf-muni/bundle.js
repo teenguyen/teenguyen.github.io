@@ -11397,6 +11397,11 @@ var Root = function (_React$Component) {
                 _react2.default.createElement(
                     'div',
                     { id: 'sfmuni' },
+                    _react2.default.createElement(
+                        'p',
+                        null,
+                        'Hi! If you\'re not seeing any buses on the map, please run this page over http as the NextBus API service doesn\'t allow https requests :('
+                    ),
                     _react2.default.createElement(_SFMap2.default, { visible: this.state.visible }),
                     _react2.default.createElement(_Filter2.default, { onClick: function onClick(v) {
                             return _this2.updateVisible(v);
