@@ -1,2 +1,1 @@
-# https://ryuuseiistar.github.io/
-My github.io :)
+# https://teenguyen.github.io/
