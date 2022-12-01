@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/produce48-sorter/static/css/main.69b12f52.chunk.css",
+    "main.js": "/produce48-sorter/static/js/main.f4875f7a.chunk.js",
+    "main.js.map": "/produce48-sorter/static/js/main.f4875f7a.chunk.js.map",
+    "runtime-main.js": "/produce48-sorter/static/js/runtime-main.9bda8424.js",
+    "runtime-main.js.map": "/produce48-sorter/static/js/runtime-main.9bda8424.js.map",
+    "static/js/2.9264c4be.chunk.js": "/produce48-sorter/static/js/2.9264c4be.chunk.js",
+    "static/js/2.9264c4be.chunk.js.map": "/produce48-sorter/static/js/2.9264c4be.chunk.js.map",
+    "index.html": "/produce48-sorter/index.html",
+    "precache-manifest.54010b1b5d6ac502fe62a0fb3d5e9aa5.js": "/produce48-sorter/precache-manifest.54010b1b5d6ac502fe62a0fb3d5e9aa5.js",
+    "service-worker.js": "/produce48-sorter/service-worker.js",
+    "static/css/main.69b12f52.chunk.css.map": "/produce48-sorter/static/css/main.69b12f52.chunk.css.map",
+    "static/js/2.9264c4be.chunk.js.LICENSE.txt": "/produce48-sorter/static/js/2.9264c4be.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/produce48-sorter/static/media/header.3a78fc13.png",
+    "static/media/logo.png": "/produce48-sorter/static/media/logo.3d9b300f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9bda8424.js",
+    "static/js/2.9264c4be.chunk.js",
+    "static/css/main.69b12f52.chunk.css",
+    "static/js/main.f4875f7a.chunk.js"
+  ]
+}
