@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/projects/nook-phone/static/css/main.aab5d81f.chunk.css",
+    "main.js": "/projects/nook-phone/static/js/main.239e400b.chunk.js",
+    "main.js.map": "/projects/nook-phone/static/js/main.239e400b.chunk.js.map",
+    "runtime-main.js": "/projects/nook-phone/static/js/runtime-main.324585c5.js",
+    "runtime-main.js.map": "/projects/nook-phone/static/js/runtime-main.324585c5.js.map",
+    "static/js/2.c3fc3841.chunk.js": "/projects/nook-phone/static/js/2.c3fc3841.chunk.js",
+    "static/js/2.c3fc3841.chunk.js.map": "/projects/nook-phone/static/js/2.c3fc3841.chunk.js.map",
+    "index.html": "/projects/nook-phone/index.html",
+    "precache-manifest.0a4c50b0d9e22197b14bc1aa3300b6a5.js": "/projects/nook-phone/precache-manifest.0a4c50b0d9e22197b14bc1aa3300b6a5.js",
+    "service-worker.js": "/projects/nook-phone/service-worker.js",
+    "static/css/main.aab5d81f.chunk.css.map": "/projects/nook-phone/static/css/main.aab5d81f.chunk.css.map",
+    "static/js/2.c3fc3841.chunk.js.LICENSE.txt": "/projects/nook-phone/static/js/2.c3fc3841.chunk.js.LICENSE.txt",
+    "static/media/best-friends-list-app.17fb9047.svg": "/projects/nook-phone/static/media/best-friends-list-app.17fb9047.svg",
+    "static/media/index.css": "/projects/nook-phone/static/media/nook-phone.647269f5.svg",
+    "static/media/camera-app.17db98c6.svg": "/projects/nook-phone/static/media/camera-app.17db98c6.svg",
+    "static/media/chat-log-app.6bcb7e72.svg": "/projects/nook-phone/static/media/chat-log-app.6bcb7e72.svg",
+    "static/media/critterpedia-app.d484caa7.svg": "/projects/nook-phone/static/media/critterpedia-app.d484caa7.svg",
+    "static/media/custom-designs-app.c935b620.svg": "/projects/nook-phone/static/media/custom-designs-app.c935b620.svg",
+    "static/media/diy-recipes-app.9ee1a378.svg": "/projects/nook-phone/static/media/diy-recipes-app.9ee1a378.svg",
+    "static/media/location.bc3bcf13.svg": "/projects/nook-phone/static/media/location.bc3bcf13.svg",
+    "static/media/map-app.ad443520.svg": "/projects/nook-phone/static/media/map-app.ad443520.svg",
+    "static/media/nook-miles-app.e3f8e76c.svg": "/projects/nook-phone/static/media/nook-miles-app.e3f8e76c.svg",
+    "static/media/passport-app.1e6f8e1e.svg": "/projects/nook-phone/static/media/passport-app.1e6f8e1e.svg",
+    "static/media/screenshot.png": "/projects/nook-phone/static/media/screenshot.6e4238cf.png",
+    "static/media/wifi.02b91e4a.svg": "/projects/nook-phone/static/media/wifi.02b91e4a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.324585c5.js",
+    "static/js/2.c3fc3841.chunk.js",
+    "static/css/main.aab5d81f.chunk.css",
+    "static/js/main.239e400b.chunk.js"
+  ]
+}

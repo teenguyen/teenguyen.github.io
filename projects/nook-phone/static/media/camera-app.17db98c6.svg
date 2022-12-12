@@ -1,0 +1,28 @@
+<svg id="camera-app" width="124" height="124" viewBox="0 0 124 124" fill="none" 
+  xmlns="http://www.w3.org/2000/svg">
+  <rect width="124" height="124" rx="48" fill="#BF90F0"/>
+  <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="124" height="124">
+    <rect width="124" height="124" rx="48" fill="#BF90F0"/>
+  </mask>
+  <g mask="url(#mask0)">
+    <rect id="camera-gradient-bg" x="-6" y="-6" width="136" height="136" fill="url(#paint0_linear)"/>
+  </g>
+  <g id="camera">
+    <path id="camera-button" d="M25 37.5C25 36.1193 26.1193 35 27.5 35H36.5C37.8807 35 39 36.1193 39 37.5V45H25V37.5Z" fill="#FF5DA0"/>
+    <path d="M20 54C20 47.3726 25.3726 42 32 42C55.0409 42 67.9591 42 91 42C97.6274 42 103 47.3726 103 54V83C103 89.6274 97.6274 95 91 95H32C25.3726 95 20 89.6274 20 83V54Z" fill="#4C3B33"/>
+    <path d="M43 36C43 32.6863 45.6863 30 49 30H75C78.3137 30 81 32.6863 81 36C81 36 81 38 81 40C81 42 83 42 83 42H41C41 42 43 42 43 40C43 38 43 36 43 36Z" fill="#4C3B33"/>
+    <rect x="56" y="37.5" width="12" height="5" rx="2" fill="#F7F4E5"/>
+    <circle cx="62" cy="69" r="20" fill="#F7F4E5"/>
+    <circle cx="62" cy="69" r="15" fill="#9764E7"/>
+    <path d="M71 72C72.1046 72 73 71.1046 73 70C73 68.8954 72.1046 68 71 68C69.8954 68 69 68.8954 69 70C69 71.1046 69.8954 72 71 72Z" fill="#F7F4E5"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M63.5306 62.1678C65.2669 62.5551 66.7599 63.5873 67.7453 65H68.8284L71.0634 62.7649C69.5288 60.5384 67.195 58.9052 64.4762 58.2798L63.5306 62.1678Z" fill="#F7F4E5"/>
+    <path d="M65.0598 61.916C65.9965 61.3307 66.2814 60.0968 65.696 59.1601C65.1107 58.2234 63.8768 57.9385 62.9401 58.5238C62.0034 59.1092 61.7185 60.343 62.3039 61.2798C62.8892 62.2165 64.1231 62.5014 65.0598 61.916Z" fill="#F7F4E5"/>
+    <path d="M68.9623 65.9518C70.0292 66.2377 71.1259 65.6046 71.4118 64.5376C71.6977 63.4707 71.0645 62.374 69.9976 62.0881C68.9307 61.8023 67.834 62.4354 67.5481 63.5023C67.2622 64.5693 67.8954 65.666 68.9623 65.9518Z" fill="#F7F4E5"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="62" y1="-6" x2="83.3068" y2="126.576" gradientUnits="userSpaceOnUse">
+      <stop offset="0.3" stop-color="#EF88FE"/>
+      <stop offset="0.7" stop-color="#BC7DF2"/>
+    </linearGradient>
+  </defs>
+</svg>
