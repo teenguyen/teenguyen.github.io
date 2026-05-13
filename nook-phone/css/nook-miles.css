@@ -1,0 +1,50 @@
+.appContainer #nook-miles-app #camera-gradient-bg {
+  display: none;
+}
+
+.appContainer[data-active="true"] #nook-miles-app {
+  overflow: visible;
+}
+
+.appContainer[data-active="true"] #nook-miles-app #nook-world {
+  animation: rotateWorld 8s linear infinite;
+}
+
+.appContainer[data-active="true"] #nook-miles-app #nook-nook {
+  animation: bounceNook 200ms linear alternate-reverse infinite;
+}
+
+.appContainer[data-active="true"] #nook-miles-app #nook-tail {
+  animation: bounceTail 200ms linear alternate-reverse infinite;
+}
+
+@keyframes rotateWorld {
+  from {
+    transform: scale(1.05) rotate(360deg);
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+  to {
+    transform: scale(1.05) rotate(0);
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+}
+
+@keyframes bounceNook {
+  from {
+    transform: scale(1.22) translateY(0%);
+    transform-origin: center;
+  }
+  to {
+    transform: scale(1.22) translateY(10%);
+    transform-origin: center;
+  }
+}
+
+@keyframes bounceTail {
+  from {
+  }
+  to {
+  }
+}
