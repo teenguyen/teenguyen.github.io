@@ -1,0 +1,52 @@
+.appContainer #camera-app #camera-gradient-bg {
+  display: none;
+}
+
+.appContainer[data-active="true"] #camera-app {
+  overflow: visible;
+}
+
+.appContainer[data-active="true"] #camera-app #camera-gradient-bg {
+  display: block;
+  animation: rotateBg 2s linear infinite;
+}
+
+.appContainer[data-active="true"] #camera-app #camera {
+  animation: bounceCamera 0.265s ease-out infinite alternate;
+}
+
+.appContainer[data-active="true"] #camera-app #camera-button {
+  animation: clickButton 2s ease-out infinite;
+}
+
+@keyframes rotateBg {
+  from {
+    transform: rotate(360deg);
+    transform-origin: center;
+  }
+  to {
+    transform: rotate(0deg);
+    transform-origin: center;
+  }
+}
+
+@keyframes bounceCamera {
+  from {
+    transform: rotate(-4deg) scale(1.35) translateX(-10%) translateY(-7%);
+  }
+  to {
+    transform: rotate(-4deg) scale(1.35) translateX(-10%) translateY(-14%);
+  }
+}
+
+@keyframes clickButton {
+  90% {
+    transform: translateY(0);
+  }
+  95% {
+    transform: translateY(4%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

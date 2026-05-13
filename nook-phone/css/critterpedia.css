@@ -1,0 +1,76 @@
+.appContainer[data-active="true"] #critterpedia-app {
+  overflow: visible;
+}
+
+.appContainer[data-active="true"] #critterpedia-app #critter-dot-dark-bg {
+  animation: growBgDark 2s linear infinite;
+  transform-origin: center;
+}
+
+.appContainer[data-active="true"] #critterpedia-app #critter-dot-light-bg {
+  animation: growBgLight 2s linear infinite;
+  transform-origin: center;
+}
+
+.appContainer[data-active="true"] #critterpedia-app #critter-butterfly {
+  animation: floatButterfly 0.4s linear infinite alternate;
+}
+
+.appContainer[data-active="true"] #critterpedia-app #critter-butterfly-flutter {
+  animation: flutterButterfly 0.08s linear infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+.appContainer[data-active="true"] #critterpedia-app #critter-fish {
+  animation: bounceFish 0.265s ease-out infinite alternate;
+  transform-origin: right;
+}
+
+@keyframes growBgDark {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+}
+
+@keyframes growBgLight {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes floatButterfly {
+  from {
+    transform: translate(-4%, -6%);
+  }
+  to {
+    transform: translate(-8%, -14%);
+  }
+}
+
+@keyframes flutterButterfly {
+  from {
+    transform: rotate(-7deg) scale(1.35, 1.42);
+  }
+  to {
+    transform: rotate(-7deg) scale(1.42);
+  }
+}
+
+@keyframes bounceFish {
+  from {
+    transform: rotate(0deg) scale(1.48) translate(20%, 0%);
+  }
+  to {
+    transform: rotate(4deg) scale(1.48) translate(20%, -5%);
+  }
+}

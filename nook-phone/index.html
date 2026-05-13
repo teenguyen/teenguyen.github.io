@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <base href="/nook-phone/" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nook Phone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/globals.css" />
+    <link rel="stylesheet" href="./css/nook-phone.css" />
+    <link rel="stylesheet" href="./css/camera.css" />
+    <link rel="stylesheet" href="./css/nook-miles.css" />
+    <link rel="stylesheet" href="./css/critterpedia.css" />
+    <link rel="stylesheet" href="./css/diy-recipes.css" />
+    <link rel="stylesheet" href="./css/custom-designs.css" />
+    <link rel="stylesheet" href="./css/map.css" />
+    <link rel="stylesheet" href="./css/chat-log.css" />
+    <link rel="stylesheet" href="./css/passport.css" />
+    <link rel="stylesheet" href="./css/best-friends.css" />
+  </head>
+  <body>
+    <div class="nookShell" id="nookphone">
+      <div class="details">
+        <img id="wifi" src="./assets/wifi.svg" alt="" width="79" height="27" decoding="async" />
+        <span id="time">12:00 AM</span>
+        <img id="location" src="./assets/location.svg" alt="" width="36" height="36" decoding="async" />
+      </div>
+      <div class="title" id="screen-title">Welcome!</div>
+      <div class="apps">
+        <div
+          class="appContainer"
+          data-app-label="Camera"
+          data-active="false"
+        >
+          <img src="./assets/app-icons/camera.svg" alt="" width="124" height="124" decoding="async" />
+        </div>
+        <div
+          class="appContainer"
+          data-app-label="Nook Miles+"
+          data-active="false"
+        >
+          <img src="./assets/app-icons/nook-miles.svg" alt="" width="124" height="124" decoding="async" />
+        </div>
+        <div
+          class="appContainer"
+          data-app-label="Critterpedia"
+          data-active="false"
+        >
+          <img src="./assets/app-icons/critterpedia.svg" alt="" width="124" height="124" decoding="async" />
+        </div>
+        <div
+          class="appContainer"
+          data-app-label="DIY Recipes"
+          data-active="false"
+        >
+          <img src="./assets/app-icons/diy-recipes.svg" alt="" width="124" height="124" decoding="async" />
+        </div>
+        <div
+          class="appContainer"
+          data-app-label="Custom Designs"
+          data-active="false"
+        >
+          <img src="./assets/app-icons/custom-designs.svg" alt="" width="124" height="124" decoding="async" />
+        </div>
+        <div
+          class="appContainer"
+          data-app-label="Map"
+          data-active="false"
+        >
+          <img src="./assets/app-icons/map.svg" alt="" width="124" height="124" decoding="async" />
+        </div>
+        <div
+          class="appContainer"
+          data-app-label="Chat Log"
+          data-active="false"
+        >
+          <img src="./assets/app-icons/chat-log.svg" alt="" width="124" height="124" decoding="async" />
+        </div>
+        <div
+          class="appContainer"
+          data-app-label="Passport"
+          data-active="false"
+        >
+          <img src="./assets/app-icons/passport.svg" alt="" width="124" height="124" decoding="async" />
+        </div>
+        <div
+          class="appContainer"
+          data-app-label="Best Friends List"
+          data-active="false"
+        >
+          <img src="./assets/app-icons/best-friends-list.svg" alt="" width="124" height="124" decoding="async" />
+        </div>
+      </div>
+      <div class="pages"></div>
+      <img
+        class="screenshot"
+        src="./assets/screenshot.png"
+        alt="nook phone screenshot"
+      />
+    </div>
+    <script src="./js/main.js" defer></script>
+  </body>
+</html>

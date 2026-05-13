@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100%;
+  background: url("../assets/bg.jpg") no-repeat fixed center / cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 700;
+}
+
+svg,
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.appContainer svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.appContainer img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.appContainer {
+  display: flex;
+}
+
+.appContainer[data-active="true"] {
+  transform: scale(1.1);
+  transform-origin: center;
+}

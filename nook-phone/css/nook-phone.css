@@ -1,0 +1,57 @@
+.nookShell {
+  background: url("../assets/nook-phone.svg") no-repeat center / 100%;
+  height: 75vh;
+  width: calc(2 / 3 * 75vh);
+  display: grid;
+  grid-template-columns: 11.13% 77.74% 11.13%;
+  grid-template-rows: 5.28% 5.66% 3.52% 8.93% 3.4% 54.34% 7.55% 4.28% 7.04%;
+}
+
+.details {
+  grid-area: 2 / 2 / 3 / 3;
+  padding-left: 4%;
+  padding-right: 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.details #wifi {
+  height: 60%;
+}
+
+.details #time {
+  color: #dfdac7;
+  font-size: 3vh;
+}
+
+.details #location {
+  height: 80%;
+}
+
+.title {
+  grid-area: 4 / 2 / 5 / 3;
+  color: #776755;
+  font-size: 4.5vh;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.apps {
+  grid-area: 6 / 2 / 7 / 3;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 4.85%;
+  grid-row-gap: 6.94%;
+}
+
+.pages {
+  grid-area: 8 / 2 / 9 / 3;
+}
+
+.screenshot {
+  opacity: 50%;
+  height: 75vh;
+  visibility: hidden;
+}
