@@ -1,6 +1,7 @@
-:HL["/_next/static/chunks/0nqy5p3odmo5k.css","style"]
+:HL["/_next/static/chunks/0cw6fgdyo18-t.css","style"]
 :HL["/_next/static/media/0c8f209abc35ee02-s.p.03rqv30url-~q.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/8f50c616ff21aafd-s.p.04xpi8-p5fibe.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/a624dffa201843ff-s.p.0xr-_bh6gedpp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/ae2df52ec52db659-s.p.0-ka0fka0g5~l.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/chunks/0cn_2i-f4cxxy.css","style"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"(case-study)","param":null,"prefetchHints":0,"slots":{"children":{"name":"social-finance","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"9cWzlX4xJ-14OX9C-_m_t"}
+:HL["/_next/static/chunks/0bls0292lx35a.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"(case-study)","param":null,"prefetchHints":0,"slots":{"children":{"name":"social-finance","param":null,"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}},"staleTime":300,"buildId":"lZ4Iqme4kyhhzcBOu0unR"}
